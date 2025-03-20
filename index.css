@@ -89,3 +89,23 @@ body{
     padding-left:5%;
     padding-right: 5%;
 }
+
+.review-section{
+    place-self: center;
+    border:1px solid;
+}
+
+.review-content{
+    display:flex;
+}
+
+.review-section h1,.review-content p{
+    padding-left:5%;
+    padding-right: 5%;
+}
+
+.review-content div{
+    border:1px solid;
+    padding:5%;
+    padding-right:5%;
+}
