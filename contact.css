@@ -1,0 +1,46 @@
+
+body{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header{
+    display: flex;
+}
+
+.header-name{
+    width: 50%;
+}
+
+.header-link{
+    display: flex;
+    width:50%;
+    justify-content: flex-end;
+
+}
+
+.header-link li{
+    list-style-type: none;
+    margin-right: 5%;
+}
+
+.header-link li a{
+    color:black;
+    text-decoration: none;
+}
+
+.hero-content{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left:25%;
+    padding-right:25%;
+}
+
+.main-title{
+    text-align: center;
+}
+
+form{
+    border:1px solid;
+    padding:5%;
+}
