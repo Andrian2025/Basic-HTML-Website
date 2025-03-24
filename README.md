@@ -77,4 +77,4 @@ This project demonstrates my ability to create a **clean, responsive, and SEO-fr
    git clone https://github.com/Andrian2025/your-repo-name.git
    ```
 
-2. Open the index.html file in your browser to view the website.
+2. Open the ```index.html``` file in your browser to view the website.
