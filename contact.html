@@ -6,7 +6,7 @@
         <meta name="description" content="Andrian's CV">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Andrian's CV" />
-        <meta property="og:description" content="Take a look for my CV" />
+        <meta name="description" content="Contact Andrian for collaboration or inquiries.">
         <meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" />   
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?">
@@ -15,41 +15,41 @@
         <link rel="icon" type="image/x-icon" href="/favicon.ico?">
     </head>
     <body>
-        <div class="header">
-            <p class="header-name"> Contact 
+        <header>
+            <p class="header-name">Andrian</p>
+            <nav>
                 <ul class="header-link">
-                    <li><a href="/index.html"> Home </a> </li>
-                    <li> / </li>
-                    <li><a href="/projects.html"> Projects </a></li>
-                    <li> / </li>
-                    <li><a href="/articles.html"> Articles </a> </li>
-                    <li> / </li>
-                    <li><a href="/contact.html"> Contact </a> </li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li>/</li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li>/</li>
+                    <li><a href="/articles.html">Articles</a></li>
+                    <li>/</li>
+                    <li><a href="/contact.html">Contact</a></li>
                 </ul>
-            </p>
-        </div>
+            </nav>
+        </header>
 
         <div class="hero-content"> 
             <h1 class="main-title"> Contact Me </h1>
             <div>
-                <form> 
-                    <label> Name : </label>
+                <form method="POST" action="/submit-form">
+                    <label for="name">Name:</label>
                     <input type="text" id="name" name="name">
 
                     <br>
 
-                    <label> Email : </label>
-                    <input type="text" id="Email" name="Email">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
 
                     <br>
 
                     <label> Message : </label>
-                    <textarea >
-                    </textarea>
+                    <textarea id="message" name="message" required></textarea>
                 
                     <br>
 
-                    <input type="submit" value="Submit" id="Email" name="Email">
+                    <input type="submit" value="Submit" id="Submit" name="Submit">
                 </form>
             </div>
         </div>
